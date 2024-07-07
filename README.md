@@ -7,6 +7,18 @@ Converts an image to ASCII art and displays it in the terminal.
 Customizes the terminal prompt with your username.
 Simple and easy-to-use interface
 
+## Requirements For Tool
+
+Install these packages
+
+```bash
+pip install lolact
+```
+
+```bash
+apt install jp2a
+```
+
 ## Usage
 
 Clone the repository:
