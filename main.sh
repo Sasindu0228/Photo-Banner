@@ -24,7 +24,7 @@ read username
 
 echo "jp2a "$pathv" | lolcat" > image.txt
 echo "clear" > clear.txt
-echo "PS1='\[\e[31m\]┌─[\[\e[37m\]\T\[\e[31m\]]──\e[1;93m[$username]]\e[0;31m──[\#]\n|\n\e[0;31m└─[\[\e[31m\]\e[0;35m\W\[\e[31m\]]──► \e[1;92m'" > Temp.txt
+echo "PS1='\[\e[31m\]┌─[\[\e[37m\]\T\[\e[31m\]]──\e[1;93m[$username]\e[0;31m──[\#]\n|\n\e[0;31m└─[\[\e[31m\]\e[0;35m\W\[\e[31m\]]──► \e[1;92m'" > Temp.txt
 
 
 rm -rf /data/data/com.termux/files/usr/etc/zshrc
